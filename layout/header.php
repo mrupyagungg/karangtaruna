@@ -137,7 +137,7 @@
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Our Team</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
