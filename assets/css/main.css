@@ -1437,11 +1437,12 @@ section,
   padding-bottom: 0;
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .team .person img {
   transition: 0.3s all ease;
+  border-radius: 100%;
 }
 
 .team .person .person-contents {
@@ -1450,7 +1451,7 @@ section,
 
 .team .person .person-contents h3 {
   color: var(--heading-color);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .team .person .person-contents .position {
@@ -1488,6 +1489,34 @@ section,
   background: var(--accent-color);
   color: var(--contrast-color);
 }
+
+@media (max-width: 576px) {
+  .team .person img {
+    width: 100%; /* Gambar akan menyesuaikan dengan lebar kontainer */
+    transition: 0.3s all ease;
+    width:250px;
+    border-radius:100%;
+    /* Mempertahankan rasio aspek */
+  }
+
+  .team .person figure {
+    margin-bottom: 15px; /* Mengurangi jarak antar elemen untuk tata letak yang lebih kompak */
+  }
+
+  .team .person .person-contents h3 {
+    font-size: 18px; /* Memperkecil ukuran font judul */
+  }
+
+  .team .person .person-contents .position {
+    font-size: 14px; /* Memperkecil ukuran font posisi */
+  }
+
+  .team .person .social a {
+    width: 30px; /* Ukuran ikon sosial lebih kecil */
+    height: 30px; /* Tinggi ikon sosial lebih kecil */
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Blog Posts 2 Section
